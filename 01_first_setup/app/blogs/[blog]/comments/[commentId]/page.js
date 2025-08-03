@@ -6,7 +6,7 @@ const CommentsID = async ({ params }) => {
   console.log(paramsObj);
   return (
     <div>
-      <h1>Comments no {commentID} {blog}</h1> 
+      <h1>Comments no {commentID} page {blog}</h1> 
     </div>
   );
 };

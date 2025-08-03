@@ -1,5 +1,9 @@
 import React from 'react'
 
+export const metadata = {
+  title: "blog"
+}
+
 const Blogs = async ({params}) => {
     console.log(await params);
   return (

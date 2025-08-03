@@ -1,5 +1,12 @@
 import React from 'react'
 
+export async function generateMetadata({ params }) {
+  const {blog} = await params
+  return {
+    title:  `Blog ${blog}`,
+  }
+}
+
 const Blogs1 = async ({params}) => {
     // console.log(await params);
 
